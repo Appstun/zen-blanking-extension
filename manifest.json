@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Blanking",
+  "author": "Appstun",
+  "version": "1.1.4",
+  "homepage_url": "https://github.com/Appstun/zen-blanking-extension",
+  "description": "A extension that opens about:blank on browser startup. (For Zen Browser to open extension popups)",
+  "permissions": ["tabs"],
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png",
+    "512": "icons/512.png"
+  },
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "blanking@appstun.net"
+    }
+  }
+}
