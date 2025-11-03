@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This extension is now useless. You can now longer open extension pop up on the `about:blank` page.
+
 # Blanking for Zen Browser
 
 When you open [Zen](https://zen-browser.app/) you will see a blank page. On this page you cannot open any extension pop up (clicking on a extension icon).
@@ -19,4 +22,4 @@ This extension fix this: It opens a `about:blank` page, so you can open extensio
 
 
 > [!NOTE]
-> Please not you cannot set `xpinstall.signatures.required` to `true`again after installation or the extension gets disabled.
+> Please note you cannot set `xpinstall.signatures.required` to `true`again after installation or the extension gets disabled.
